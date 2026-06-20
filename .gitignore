@@ -1,0 +1,26 @@
+# Wiktionary 원본 덤프 (대용량 — 빌드 입력, 커밋하지 않음)
+*.xml
+*.xml.bz2
+*.json
+*.json.gz
+*.jsonl
+dumps/
+data/raw/
+
+# 빌드 중간 산출물
+*.tmp
+build/
+
+# 최종 .sqlite 는 GitHub Releases 로 배포 (repo 에 커밋하지 않음 — 100MB 제한)
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / 에디터
+.DS_Store
+*.swp
